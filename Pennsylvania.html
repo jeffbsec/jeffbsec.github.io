@@ -4,12 +4,18 @@
 </head>
 
 <body>
-
 <A NAME=Pennsylvania>
 <H1>Pennsylvania Links</H1>
 
-** These links are being provided as a convenience and for informational purposes only.
-Reference to any specific company, products, processes, or services by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply endorsement or recommendation.
+<div id="container"></div>
+
+<script>
+  fetch("disclaimer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("container").innerHTML = data;
+    });
+</script>
 
 <h3>Index</h3>
 E:
