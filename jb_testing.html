@@ -3,6 +3,17 @@
 <title>Your Title Here</title>
 </head>
 <body>
+
+<div id="container"></div>
+
+<script>
+  fetch("disclaimer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("container").innerHTML = data;
+    });
+</script>
+
 <h1>This is header</h1>
 This is just a bunch of text
 </body>
