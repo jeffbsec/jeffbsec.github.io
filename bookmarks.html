@@ -5,10 +5,17 @@
 
 <body>
 
-<H1>Bookmarks</H1>
+<div id="container"></div>
 
-** These links are being provided as a convenience and for informational purposes only.
-Reference to any specific company, products, processes, or services by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply endorsement or recommendation.
+<script>
+  fetch("disclaimer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("container").innerHTML = data;
+    });
+</script>
+
+<H1>Bookmarks</H1>
 
 <h3>General Index</h3>
 A:
