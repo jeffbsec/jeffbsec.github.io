@@ -1,14 +1,57 @@
 <HTML>
 <head>
-<TITLE>Food Bookmarks</TITLE>
+<TITLE>Food Links</TITLE>
 </head>
 
 <body>
+<A NAME=Food>
+<H1>Food Links</H1>
+
+<div id="container"></div>
+
+<script>
+  fetch("disclaimer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("container").innerHTML = data;
+    });
+</script>
+
+<h3>Index</h3>
+A:
+<a href="#Alcohol">Alcohol</a>&nbsp;
+<br>
+B:
+<a href="#Brewing">Brewing</a>&nbsp;
+<br>
+C:
+<a href="#Coffee">Coffee</a>&nbsp;
+<br>
+D:
+<a href="#Diet">Diet</a>&nbsp;
+<br>
+F:
+<a href="#Food-General">Food-General</a>&nbsp;
+<br>
+M:
+<a href="#MealDelivery">MealDelivery</a>&nbsp;
+<br>
+R:
+<a href="#Restaurants">Restaurants</a>&nbsp;
+<br>
+S:
+<a href="#Snacks">Snacks</a>&nbsp;
+<a href="#Sweets">Sweets</a>&nbsp;
+<br>
+<br>
+
+<hr>
 
 <A NAME=Alcohol>
 <H3>Alcohol</H3>
 <!-- 09/12/2023 -->
 <ul>
+<li><a href="https://www.atlanticliquors.net/">Atlantic Liquors - Rehoboth Beach, DE</a>
 <li><a href="https://bankswinesandspirits.com/">Banks Wines & Spirits - Millville, DE</a>
 <li><a href="https://www.bigliquorshop.com/">Big Liquor Shop - Selbyville, DE</a>
 <li><a href="https://beachliquors.com/">Beach Liquors - Bethany Beach, DE</a>
@@ -19,15 +62,31 @@
 <H3>Brewing</H3>
 <!-- 1/20/2020 -->
 <ul>
+<li><a href="https://www.dogfish.com/">Dogfish Head - Milton, DE</a>
 <li><a href="https://www.duclaw.com/">DuClaw Brewing Company - Baltimore</a>
 <li><a href="https://www.hysteriabrewing.com/">Hysteria Brewing Company - Columbia, MD</a>
 <li><a href="https://jailbreakbrewing.com/">Jailbreak Brewing Company - Laurel, MD</a>
 <li><a href="https://www.1623brewing.com/">1623 Brewing Company - Eldersburg, MD</a>
 </ul>
 
+<A NAME=Coffee>
+<H3>Coffee</H3>
+<!-- 01/06/2025 -->
+<ul>
+<li><a href="https://blackriflecoffee.com/">Black Rifle Coffee</a>
+<li><a href="https://www.cloveandcedarcoffeebar.com/">Clove and Cedar CoffeeBar - Bethany Beach, DE</a>
+<li><a href="https://www.coffeebean.com/">Coffee Bean and Tea Leaf</a>
+<li><a href="https://www.keurig.com/">Keurig</a>
+<li><a href="https://www.nespresso.com/us/en/">Nespresso</a>
+<li><a href="https://www.peets.com/">Peet's Coffee</a>
+<li><a href="https://riseupcoffee.com/">Rise Up Coffee Roasters</a>
+<li><a href="https://www.starbucks.com/">Starbucks</a>
+<li><a href="https://timhortons.com/">Tim Hortons</a>
+</ul>
+
 <A NAME=Diet>
 <H3>Diet</H3>
-<!-- 9/21/2019 -->
+<!-- 01/06/2025 -->
 <ul>
 <li><a href="https://www.calorieking.com/">CalorieKing</a></li>
 <li><a href="https://www.delish.com/keto-recipes/">delish - Keto Recipes</a>
@@ -36,17 +95,15 @@
 <li><a href="https://www.ketoconnect.net/">KetoConnect</a></li>
 <li><a href="https://keto-daily.com/">Keto Daily</a></li>
 <li><a href="https://lowcarbinspirations.com/">Low Carb Inspirations</a></li>
-<li><a href="https://mrskinnypants.com/">Mr Skinny Pants</a></li>
 <li><a href="https://nobunplease.com/">No Bun Please</a></li>
 <li><a href="https://www.reddit.com/r/keto/">reddit keto</a>
 <li><a href="https://www.reddit.com/r/ketorecipes/">reddit ketorecipes</a>
-<li><a href="https://startlowcarb.com/">Start Low Carb</a></li>
 <li><a href="https://thinlicious.com/category/low-carb-recipes/">Thinlicious Low-Carb Recipes</a>
 </ul>
 
-<A NAME=FoodMisc>
-<H3>FoodMisc</H3>
-<!-- 8/9/2019 -->
+<A NAME=Food-General>
+<H3>Food-General</H3>
+<!-- 01/06/2025 -->
 <ul>
 <li><a href="https://www.flavortownusa.com/">Guy Fieri's DDD</a>
 <li><a href="https://www.foodsafety.gov/">FoodSafety.gov</a>
@@ -61,13 +118,6 @@
 <li><a href="https://www.goldbelly.com/">Goldbelly</a>
 <li><a href="https://www.grubhub.com/">GrubHub</a>
 <li><a href="https://www.ubereats.com/">Uber Eats</a>
-</ul>
-
-<A NAME=Recipes>
-<H3>Recipes</H3>
-<!-- 02/05/2023 -->
-<ul>
-<li><a href="https://www.thedailymeal.com/category/recipes/">The Daily Meal Recipes</a>
 </ul>
 
 <A NAME=Restaurants>
@@ -129,6 +179,7 @@
 <li><a href="https://www.krispykreme.com/">Krispy Kreme</a>
 <li><a href="https://www.morningbunsbakeshop.com/">Morning Buns Bake Shop - Millville, DE</a>
 <li><a href="https://www.pieloversmd.com/">Pie Lovers - Eldersburg, MD</a>
+<li><a href="https://thepointcoffee.com/">The Point - Rehoboth Beach, DE</a>
 <li><a href="https://sandyponydonuts.com/">Sandy Pony Donuts - Bethany Beach, DE</a>
 <li><a href="https://sweetdisposition.com/">Sweet Disposition - Selbyville, DE</a>
 <li><a href="https://www.3blondebakers.com/">Three Blonde Bakers - Bethany Beach, DE</a>
@@ -175,18 +226,6 @@
 <li><a href="https://thepenguinbethany.com/">The Penguin - Bethany Beach, DE</a>
 <li><a href="https://www.sunshinecrepes.com/">Sunshine Crepes - Bethany Beach, DE</a>
 </ul>
-<li><b>Coffee</b>
-<ul>
-<li><a href="https://blackriflecoffee.com/">Black Rifle Coffee</a>
-<li><a href="https://www.cloveandcedarcoffeebar.com/">Clove and Cedar CoffeeBar - Bethany Beach, DE</a>
-<li><a href="https://www.coffeebean.com/">Coffee Bean and Tea Leaf</a>
-<li><a href="https://www.keurig.com/">Keurig</a>
-<li><a href="https://www.nespresso.com/us/en/">Nespresso</a>
-<li><a href="https://www.peets.com/">Peet's Coffee</a>
-<li><a href="https://riseupcoffee.com/">Rise Up Roasters</a>
-<li><a href="https://www.starbucks.com/">Starbucks</a>
-<li><a href="https://timhortons.com/">Tim Horton's</a>
-</ul>
 <li><b>Diners</b>
 <ul>
 <li><a href="https://bethanydiner.com/">Bethany Diner - Bethany Beach, DE</a>
@@ -222,6 +261,7 @@
 <li><a href="https://www.kfc.com/">Kentucky Fried Chicken</a>
 <li><a href="https://www.mcdonalds.com/">McDonalds</a>
 <li><a href="https://popeyes.com/">Popeye's</a>
+<li><a href="https://www.primohoagies.com/">PrimoHoagies</a>
 <li><a href="https://www.quiznos.com/">Quiznos</a>
 <li><a href="https://www.royrogersrestaurants.com/">Roy Rogers</a>
 <li><a href="https://www.sonicdrivein.com/">Sonic Drive-In</a>
@@ -259,6 +299,7 @@
 <li><a href="https://www.plazatapatia.com/">Plaza Tapatia - Berlin, MD</a>
 <li><a href="https://www.qdoba.com/">Qdoba</a>
 <li><a href="https://www.tacobell.com/">Taco Bell</a>
+<li><a href="https://www.tacoreho.com/">Taco Reho - Rehoboth Beach, DE</a>
 <li><a href="https://zocabethany.com/">ZOCA Mexican Restaurant - Bethany Beach, DE</a>
 </ul>
 <li><b>Pizza</b>
@@ -271,6 +312,7 @@
 <li><a href="https://www.grottopizza.com/">Grotto Pizza</a>
 <li><a href="https://www.ledopizza.com/">Ledo's Pizza</a>
 <li><a href="https://littlecaesars.com/">Little Caesar's</a>
+<li><a href="https://www.marcos.com/">Marco's Pizza</a>
 <li><a href="https://www.mionespizza67.com/">Mione's Pizza - Ocean City, MD</a>
 <li><a href="https://modpizza.com/">MOD Pizza</a>
 <li><a href="https://www.nicolapizza.com/">Nicola Pizza - Lewes, DE</a>
@@ -278,6 +320,7 @@
 <li><a href="https://bethanypie.com/">Pie - Bethany Beach, DE</a>
 <li><a href="https://www.pizzabolis.com/">Pizza Boli's</a>
 <li><a href="https://www.pizzahut.com/">Pizza Hut</a>
+<li><a href="https://pizzatugos.com/">Pizza Tugos - Ocean City, MD</a>
 <li><a href="https://pomodoropizzabethanybeach.com/">Pomodoro Pizza - Bethany Beach, DE</a>
 <li><a href="https://portopizzaandgrill.com/">Porto Pizza and Grill - Dagsboro, DE</a>
 </ul>
@@ -336,12 +379,6 @@
 <li><a href="https://www.redlobster.com/">Red Lobster</a>
 <li><a href="https://seaking.com/">Sea King Seafood Market - Ellicott City, MD</a>
 </ul>
-<li><b>Snacks</b>
-<ul>
-<li><a href="https://www.boardwalkfriesbethanybeach.com/">Boardwalk Fries - Bethany Beach, DE</a>
-<li><a href="https://www.fishers-popcorn.com/">Fishers Popcorn - MD/DE</a>
-<li><a href="https://www.thrashersrehoboth.com/">Thrasher's French Fries - Rehoboth, DE</a>
-</ul>
 <li><b>Steaks</b>
 <ul>
 <li><a href="https://fogodechao.com/">Fogo De Chao</a>
@@ -353,7 +390,21 @@
 <li><a href="https://www.ruthschris.com/">Ruth's Chris Steak House</a>
 <li><a href="https://www.texasroadhouse.com/">Texas Roadhouse</a>
 </ul>
-<li><b>Sweets</b>
+</ul>
+
+<A NAME=Snacks>
+<H3>Snacks</H3>
+<!-- 01/06/2025 -->
+<ul>
+<li><a href="https://www.auntieannes.com/">Auntie Anne's Pretzels</a>
+<li><a href="https://www.boardwalkfriesbethanybeach.com/">Boardwalk Fries - Bethany Beach, DE</a>
+<li><a href="https://www.fishers-popcorn.com/">Fishers Popcorn - MD/DE</a>
+<li><a href="https://www.thrashersrehoboth.com/">Thrasher's French Fries - Rehoboth, DE</a>
+</ul>
+
+<A NAME=Sweets>
+<H3>Sweets</H3>
+<!-- 01/06/2025 -->
 <ul>
 <li><a href="https://www.baskinrobbins.com/">Baskin-Robbins</a>
 <li><a href="https://www.bonkeys.com/">Bonkey's</a>
@@ -362,7 +413,7 @@
 <li><a href="https://www.coldstonecreamery.com/">Cold Stone Creamery</a>
 <li><a href="https://www.dairyqueen.com/">Dairy Queen</a>
 <li><a href="https://dolles.com/">Dolle's - Ocean City, MD</a>
-<li><a href="https://firehouse-creamery.business.site/">Firehouse Creamery - Sykesville, MD</a>
+<li><a href="https://www.facebook.com/firehousecreamerymainstreet/">Firehouse Creamery - Sykesville, MD</a>
 <li><a href="https://www.hoffmansicecream.com/">Hoffman's Ice Cream - Westminster, MD</a>
 <li><a href="https://www.kohrbros.com/">Kohr Brothers - Mid-Atlantic</a>
 <li><a href="https://maureensicecream.com/">Maureen's Ice Cream and Desserts - Bethany Beach, DE</a>
@@ -372,7 +423,7 @@
 <li><a href="https://www.ritasice.com/">Rita's Italian Ice</a>
 <li><a href="https://www.sweetfrog.com/">Sweet Frog</a>
 <li><a href="https://www.tcby.com/">TCBY</a>
-</ul>
+<li><a href="https://wockenfusscandies.com/">Wockenfuss Candies</a>
 </ul>
 
 </body>
