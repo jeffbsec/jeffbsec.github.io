@@ -1,9 +1,41 @@
 <HTML>
 <head>
-<TITLE>Finance Bookmarks</TITLE>
+<TITLE>Finance Links</TITLE>
 </head>
 
 <body>
+<A NAME=Finance>
+<H1>Finance Links</H1>
+
+<div id="container"></div>
+
+<script>
+  fetch("disclaimer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("container").innerHTML = data;
+    });
+</script>
+
+<h3>Index</h3>
+B:
+<a href="#Banking">Banking</a>&nbsp;
+<br>
+C:
+<a href="#Credit">Credit</a>&nbsp;
+<br>
+F:
+<a href="#Finance-General">Finance-General</a>&nbsp;
+<br>
+I:
+<a href="#Insurance">Insurance</a>&nbsp;
+<br>
+T:
+<a href="#Taxes">Taxes</a>&nbsp;
+<br>
+<br>
+
+<hr>
 
 <A NAME=Banking>
 <H3>Banking</H3>
@@ -11,23 +43,6 @@
 <ul>
 <li><a href="https://www.paypal.com/">PayPal</a>
 <li><a href="https://venmo.com/">venmo</a>
-</ul>
-
-<A NAME=Charity>
-<H3>Charity</H3>
-<!-- 3/11/2020 -->
-<ul>
-<li><a href="https://www.give.org/">BBB Wise Giving Alliance</a>
-<li><a href="https://betterworldbooks.com/">BetterWorld Books</a>
-<li><a href="https://www.charitynavigator.org/">Charity Navigator</a>
-<li><a href="https://www.charitywatch.org/">Charity Watch</a>
-<li><a href="https://www.compassion.com/">Compassion International</a>
-<li><a href="https://www.guidestar.org/">GuideStar</a>
-<li><a href="https://www.irs.gov/charities-non-profits/tax-exempt-organization-search">IRS Tax Exempt Organization Search</a>
-<li><a href="https://www.jeepersbacktheblue.org/">Jeepers Back the Blue - Dover, DE</a>
-<li><a href="https://www.nasconet.org/resources/state-government/">National Association of State Charity Officials</a>
-<li><a href="https://www.santaslettersinc.com/">Santa's Letter</a>
-<li><a href="https://app.sterlingvolunteers.com/">Sterling Volunteers</a>
 </ul>
 
 <A NAME=Credit>
@@ -42,8 +57,8 @@
 <li><a href="https://www.transunion.com/">TransUnion</a>
 </ul>
 
-<A NAME=Finance>
-<H3>Finance</H3>
+<A NAME=Finance-General>
+<H3>Finance-General</H3>
 <!-- 5/15/2021 -->
 <ul>
 <li><a href="https://www.barrons.com/">Barron's</a>
