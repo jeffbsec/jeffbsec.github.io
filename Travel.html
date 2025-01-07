@@ -1,9 +1,56 @@
 <HTML>
 <head>
-<TITLE>Travel Bookmarks</TITLE>
+<TITLE>Travel Links</TITLE>
 </head>
 
 <body>
+<A NAME=Travel>
+<H1>Travel Links</H1>
+
+<div id="container"></div>
+
+<script>
+  fetch("disclaimer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("container").innerHTML = data;
+    });
+</script>
+
+<h3>Index</h3>
+A:
+<a href="#AirTravel">AirTravel</a>&nbsp;
+<a href="#AutoRental">AutoRental</a>&nbsp;
+<a href="#Automotive">Automotive</a>&nbsp;
+<br>
+C:
+<a href="#Camping">Camping</a>&nbsp;
+<a href="#Caribbean">Caribbean</a>&nbsp;
+<br>
+H:
+<a href="#Highways">Highways</a>&nbsp;
+<a href="#Hotels">Hotels</a>&nbsp;
+<br>
+M:
+<a href="#Maps">Maps</a>&nbsp;
+<a href="#Maritime">Maritime</a>&nbsp;
+<br>
+P:
+<a href="#Parking">Parking</a>&nbsp;
+<br>
+R:
+<a href="#RailTravel">RailTravel</a>&nbsp;
+<a href="#RideShare">RideShare</a>&nbsp;
+<br>
+S:
+<a href="#ShortTermRental">ShortTermRental</a>&nbsp;
+<br>
+T:
+<a href="#TravelPlanning">TravelPlanning</a>&nbsp;
+<br>
+<br>
+
+<hr>
 
 <A NAME=AirTravel>
 <H3>AirTravel</H3>
@@ -291,7 +338,7 @@
 </ul>
 
 <A NAME=RideShare>
-<H3>Ride Share</H3>
+<H3>RideShare</H3>
 <!-- 8/10/2019 -->
 <ul>
 <li><a href="https://www.lyft.com/">Lyft</a></li>
