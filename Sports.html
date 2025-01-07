@@ -1,15 +1,44 @@
 <HTML>
 <head>
-<TITLE>Sports Bookmarks</TITLE>
+<TITLE>Sports Links</TITLE>
 </head>
 
 <body>
+<A NAME=Reference>
+<H1>Reference Links</H1>
+
+<div id="container"></div>
+
+<script>
+  fetch("disclaimer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("container").innerHTML = data;
+    });
+</script>
+
+<h3>Index</h3>
+F:
+<a href="#Football">Football</a>&nbsp;
+<br>
+G:
+<a href="#Golf">Golf</a>&nbsp;
+<br>
+H:
+<a href="#Hockey">Hockey</a>&nbsp;
+<br>
+S:
+<a href="#Soccer">Soccer</a>&nbsp;
+<a href="#SportsNews">SportsNews</a>&nbsp;
+<br>
+<br>
+
+<hr>
 
 <A NAME=Football>
 <H3>Football</H3>
-<!-- 8/20/2019 -->
+<!-- 01/07/2025 -->
 <ul>
-<li><a href="https://www.football-refs.com/">Football Refs</a>
 <li><a href="https://www.footballzebras.com/">Football Zebras</a>
 <li><a href="https://www.nfl.com/">NFL</a>
 <li><a href="https://506sports.com/nfl/">NFL TV Distribution Maps</a>
@@ -67,7 +96,7 @@
 
 <A NAME=Hockey>
 <H3>Hockey</H3>
-<!-- 8/20/2019 -->
+<!-- 01/07/2025 -->
 <ul>
 <li><a href="https://theahl.com/">AHL</a>
 <li><a href="https://arenamaps.travelsports.com/">ArenaMaps.com</a>
@@ -83,7 +112,7 @@
 
 <A NAME=Soccer>
 <H3>Soccer</H3>
-<!-- 8/20/2019 -->
+<!-- 01/07/2025 -->
 <ul>
 <li><a href="https://www.baltimoreblast.com/">Baltimore Blast Soccer</a>
 </ul>
