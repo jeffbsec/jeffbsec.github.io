@@ -1,9 +1,53 @@
 <HTML>
 <head>
-<TITLE>Reference Bookmarks</TITLE>
+<TITLE>Reference Links</TITLE>
 </head>
 
 <body>
+<A NAME=Reference>
+<H1>Reference Links</H1>
+
+<div id="container"></div>
+
+<script>
+  fetch("disclaimer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("container").innerHTML = data;
+    });
+</script>
+
+<h3>Index</h3>
+C:
+<a href="#Calendar">Calendar</a>&nbsp;
+<br>
+F:
+<a href="#Federal-Govt">Federal-Govt</a>&nbsp;
+<br>
+G:
+<a href="#Graphics">Graphics</a>&nbsp;
+<br>
+J:
+<a href="#Jobs">Jobs</a>&nbsp;
+<br>
+L:
+<a href="#Legal">Legal</a>&nbsp;
+<br>
+P:
+<a href="#Pets">Pets</a>&nbsp;
+<br>
+R:
+<a href="#Reference-General">Reference-General</a>&nbsp;
+<br>
+S:
+<a href="#SearchTools">SearchTools</a>&nbsp;
+<a href="#Shipping">Shipping</a>&nbsp;
+<a href="#SocialMedia">SocialMedia</a>&nbsp;
+<br>
+<br>
+
+<hr>
+
 
 <A NAME=Calendar>
 <H3>Calendar</H3>
@@ -19,201 +63,40 @@
 <li><a href="https://www.un.org/en/observances/list-days-weeks">United Nations - List of International Days and Weeks</a>
 </ul>
 
-<A NAME=Crime>
-<H3>Crime</H3>
-<!-- 05/12/2023 -->
+<A NAME=Federal-Govt>
+<H3>Federal-Govt</H3>
+<!-- 8/13/2019 -->
 <ul>
-<li><a href="https://www.cityprotect.com/">CityProtect</a>
-<li><a href="https://communitycrimemap.com/">Community Crime Map</a>
-<li><a href="https://www.crimemapping.com/map/de/DelawareStatePolice">Crime Mapping - DE State Police</a>
-<li><a href="https://www.crimeonline.com/">Crime Online</a>
-<li><a href="https://criminalwatch.com/">Criminal Watch</a>
-<li><a href="https://www.criminalwatchdog.com/">Criminal Watch Dog</a>
-<li><a href="https://lawandcrime.com/">Law and Crime</a>
-<li><a href="https://www.loweringthebar.net/">Lowering the Bar</a>
+<li><a href="https://www.census.gov/">Census Bureau</a>
+<li><a href="https://usda.gov/">Department of Agriculture</a>
+<li><a href="https://www.defense.gov/">Department of Defense</a>
+<li><a href="https://www.ed.gov/">Department of Education</a>
+<li><a href="https://www.dhs.gov/">Department of Homeland Security</a>
+<li><a href="https://www.justice.gov/">Department of Justice</a>
+<li><a href="https://www.dol.gov/">Department of Labor</a>
+<li><a href="https://www.state.gov/">Department of State</a>
+<li><a href="https://home.treasury.gov/">Department of the Treasury</a>
+<ul>
+<li><a href="https://www.treasurydirect.gov/BC/SBCPrice">US Savings Bonds</a>
 </ul>
-
-<A NAME=Emergency>
-<H3>Emergency</H3>
-<!-- 08/03/2022 -->
+<li><a href="https://www.va.gov/">Department of Veterans Affairs</a>
+<li><a href="https://www.fema.gov/">Federal Emergency Management Agency (FEMA)</a>
+<li><a href="https://www.usgs.gov/">Geological Survey</a>
+<li><a href="https://www.gsa.gov/">General Services Administration</a>
 <ul>
-<li><a href="https://www.smart911.com/">Smart911</a>
+<li><a href="https://www.acquisition.gov/">Federal Acquisition Regulations</a>
 </ul>
-
-<A NAME=EMS>
-<H3>EMS</H3>
-<!-- 7/17/2021 -->
-<ul>
-<li><a href="https://statmedevac.com/">STAT MedEvac</a>
-<li><b>Delaware</b>
-<ul>
-<li><a href="https://www.dhss.delaware.gov/dph/ems/ems.html">DE DPH EMS</a>
-<li><a href="https://sussexcountyde.gov/emergency-medical-services">Sussex County EMS</a>
-</ul>
-<li><b>Maryland</b>
-<ul>
-<li><a href="https://www.miemssalert.com/chats/">CHATS - County/Hospital Alert Tracking System</a>
-<li><a href="http://www.harfordems.org/">Harford County Fire and EMS Foundation <i>(insecure)</i></a>
-<li><a href="https://www.miemss.org/">MD Institute for Emergency Medical Services (MIEMSS)</a>
-</ul>
-</ul>
-
-<A NAME=Fire>
-<H3>Fire</H3>
-<!-- 8/8/2019 -->
-<ul>
-<li><b>Delaware</b>
-<ul>
-<li><a href="https://statefiremarshal.delaware.gov/">Delaware State Fire Marshal</a>
-<li>Kent County
-<ul>
-<li><a href="https://m.broadcastify.com/listen/feed/12479">Broadcastify - Kent County Fire and EMS</a>
-<li><a href="https://co.kent.de.us/public-safety/Emergency-Communications.aspx">Kent County Emergency Communications</a>
-<li><a href="https://www.co.kent.de.us/media/6283/firedistrictmap.pdf">Kent County Fire District Map</a>
-<li><a href="https://wiki.radioreference.com/index.php/Kent_County_(DE)_Fire/EMS_Stations">Kent County Fire/EMS Stations (RadioReference)</a>
-</ul>
-<li>New Castle County
-<ul>
-<li><a href="https://m.broadcastify.com/listen/feed/19805">Broadcastify - New Castle County Fire</a>
-<li><a href="https://www.newcastlede.gov/2424/Public-Safety">New Castle County Public Safety</a>
-<li><a href="https://nccvfa.org/">New Castle County Volunteer Firefighters Association</a>
-<li><a href="https://wiki.radioreference.com/index.php/New_Castle_County_(DE)_Fire/EMS_Stations">New Castle County Fire/EMS Stations (RadioReference)</a>
-</ul>
-<li>Sussex County
-<ul>
-<li><a href="https://m.broadcastify.com/webPlayer/14500">Broadcastify - Sussex County Fire and Seaford Fire / EMS</a>
-<li><a href="https://scvfa.net/">Sussex County Volunteer Firefighters Association</a>
-<li><a href="https://wiki.radioreference.com/index.php/Sussex_County_(DE)_Fire/EMS_Stations">Sussex County Fire Stations (RadioReference)</a>
-</ul>
-</ul>
-<li><b>Maryland</b>
-<ul>
-<li><a href="https://www.marylandfirefighters.com/">MarylandFirefighters.com</a>
-<li><a href="https://mdsp.maryland.gov/firemarshal/Pages/StateFireMarshal.aspx">Maryland State Fire Marshal</a>
-<li><a href="https://www.msfa.org/">Maryland State Fireman's Association</a>
-<li>Anne Arundel County
-<ul>
-<li><a href="https://www.aacounty.org/departments/fire-department/">Anne Arundel County Fire Department</a>
-<li><a href="https://wiki.radioreference.com/index.php/Anne_Arundel_County_(MD)_Fire_Companies">Anne Arundel County Fire Stations (RadioReference)</a>
-<li><a href="https://www.broadcastify.com/webPlayer/25680">Broadcastify - Anne Arundel County Fire and EMS</a>
-</ul>
-<li>Baltimore City
-<ul>
-<li><a href="https://fire.baltimorecity.gov/">Baltimore City FD</a>
-<li><a href="https://wiki.radioreference.com/index.php/Baltimore_City_(MD)_Fire">Baltimore City Fire Stations (RadioReference)</a>
-<li><a href="https://www.broadcastify.com/webPlayer/30327">Broadcastify - Baltimore City Fire</a>
-</ul>
-<li>Baltimore County
-<ul>
-<li><a href="https://www.baltimorecountymd.gov/Agencies/fire/">Baltimore County Fire Departments</a>
-<li><a href="https://wiki.radioreference.com/index.php/Baltimore_County_(MD)">Baltimore County Fire Stations (RadioReference)</a>
-<li><a href="https://www.broadcastify.com/webPlayer/16828">Broadcastify - Baltimore County Fire and EMS - Digital</a>
-</ul>
-<li>Carroll County
-<ul>
-<li><a href="https://www.broadcastify.com/webPlayer/19917">Broadcastify - Carroll County Fire and EMS - Digital</a>
-<li><a href="https://carrollcountymd.gov/services/gis-maps/gis-map-gallery/map-gallery/fire-companies/">Carroll County Fire District Map</a>
-<li><a href="https://wiki.radioreference.com/index.php/Carroll_County_(MD)">Carroll County Fire Stations (RadioReference)</a>
-<li><a href="https://www.broadcastify.com/listen/ctid/1194">Carroll County IPN Incident List</a>
-<li><a href="https://carrollcountymd.gov/government/directory/public-safety/">Carroll County Public Safety</a>
-<li><a href="https://www.ccvesa.org/">Carroll County Volunteer Emergency Services Association</a>
-</ul>
-<li>Frederick County
-<ul>
-<li><a href="https://www.broadcastify.com/webPlayer/15129">Broadcastify - Frederick County Fire - Digital</a>
-<li><a href="https://www.frederickcountymd.gov/5280/Companies">Frederick County Fire Departments</a>
-<li><a href="https://wiki.radioreference.com/index.php/Frederick_County_(MD)_Fire">Frederick County Fire Stations (RadioReference)</a>
-</ul>
-<li>Harford County
-<ul>
-<li><a href="https://www.broadcastify.com/webPlayer/30840">Broadcastify - Harford County Public Safety</a>
-<li><a href="https://harfordvolunteer.com/">Harford County Volunteer Fire and EMS Association</a>
-<li><a href="https://wiki.radioreference.com/index.php/Harford_County_(MD)_Fire_Apparatus_List_and_Tone_Outs">Harford County Fire Stations (RadioReference)</a>
-</ul>
-<li>Howard County
-<ul>
-<li><a href="https://www.broadcastify.com/webPlayer/8117">Broadcastify - Howard County Fire Dispatch</a>
-<li><a href="https://www.howardcountymd.gov/Departments/Fire-and-Rescue/Fire-Stations">Howard County Fire Dapartments</a>
-<li><a href="https://wiki.radioreference.com/index.php/Howard_County_(MD)_Fire_Stations_and_Apparatus">Howard County Fire Stations (RadioReference)</a>
-</ul>
-<li>Montgomery County
-<ul>
-<li><a href="https://www.broadcastify.com/webPlayer/34051">Broadcastify - Montgomery County DFRS-Dispatch 7V2</a>
-<li><a href="https://www.montgomerycountymd.gov/mcfrs/">Montgomery County Fire and rescue</a>
-<li><a href="https://wiki.radioreference.com/index.php/MCFRS_(_MD_)">Montgomery County Fire Stations (RadioReference)</a>
-</ul>
-<li>Prince Georges County
-<ul>
-<li><a href="https://www.broadcastify.com/webPlayer/24385">Broadcastify - Prince George's County Fire and EMS</a>
-<li><a href="https://www.princegeorgescountymd.gov/222/FireEmergency-Medical-Services">Prince Georges County Fire Department</a>
-<li><a href="https://wiki.radioreference.com/index.php/Prince_George%27s_County_(MD)">Prince Georges County Fire Stations (RadioReference)</a>
-</ul>
-<li>Wicomico County
-<ul>
-<li><a href="https://www.broadcastify.com/webPlayer/24750">Broadcastify - Wicomico County Fire and EMS</a>
-<li><a href="https://wiki.radioreference.com/index.php/Wicomico_County_(MD)">Wicomico County Fire Stations (RadioReference)</a>
-</ul>
-<li>Worcester County
-<ul>
-<li><a href="https://www.broadcastify.com/webPlayer/36125">Broadcastify - Worcester County / Ocean City Fire</a>
-<li><a href="https://oceancitymd.gov/oc/departments/fire/">Ocean City Fire</a>
-<li><a href="https://co.worcester.md.us/departments/emergency/">Worcester County Emergency Services</a>
-<li><a href="https://wiki.radioreference.com/index.php/Worcester_County_(MD)_Ocean_City_Fire">Ocean City Fire Stations (RadioReference)</a>
-<li><a href="https://wiki.radioreference.com/index.php/Worcester_County_(MD)_Fire">Worcester County Fire Stations (RadioReference)</a>
-</ul>
-</ul>
-<li><b>Pennsylvania</b>
-<ul>
-<li>Adams County
-<ul>
-<li><a href="https://www.adamscountypa.gov/departments/emergencymanagementservices/fireemsdepartments">Adams County PA Fire Departments</a>
-<li><a href="https://incidents.adams911.com/">Adams County 911 Incidents</a>
-<li><a href="https://wiki.radioreference.com/index.php/Adams_County_(PA)_Fire/EMS_ID%27s">Adams County Fire Stations (RadioReference)</a>
-<li><a href="https://www.broadcastify.com/webPlayer/12522">Broadcastify - Adams County Fire and EMS - Digital</a>
-</ul>
-<li>Cambria County
-<ul>
-<li><a href="https://www.broadcastify.com/webPlayer/1069">Broadcastify - Cambria and Somerset County Police, Fire and EMS</a>
-<li><a href="https://wiki.radioreference.com/index.php/Cambria_County_(PA)_Fire/EMS_ID%27s">Cambria County Fire/EMS (RadioReference)</a>
-</ul>
-<li>York County
-<ul>
-<li><a href="https://www.broadcastify.com/webPlayer/23432">Broadcastify - York County Fire</a>
-<li><a href="https://yorkcountypa.gov/924/First-Responder-List">York County PA First Responder List</a>
-<li><a href="https://www.ycdes.org/webcad/">York County 911 Incidents</a>
-<li><a href="https://wiki.radioreference.com/index.php/York_County_(PA)_Fire_ID%27s">York County Fire Stations (RadioReference)</a>
-</ul>
-</ul>
-</ul>
-
-<A NAME=GenRef>
-<H3>General Reference</H3>
-<!-- 8/8/2019 -->
-<ul>
-<li><a href="https://www.answers.com/">Answers</a>
-<li><a href="https://www.cia.gov/library/publications/resources/the-world-factbook/">CIA World Factbook</a>
-<li><a href="https://www.city-data.com/">CityData</a>
-<li><a href="https://www.dictionary.com/">Dictionary.com</a>
-<li><a href="https://www.ehow.com/">eHow</a>
-<li><a href="https://www.encyclopedia.com/">Encyclopedia.com</a>
-<li><a href="https://www.factmonster.com/">Fact Monster</a>
-<li><a href="https://www.farmersalmanac.com/">Farmers Almanac</a>
-<li><a href="https://www.infoplease.com/">InfoPlease On-line Reference</a>
-<li><a href="https://web.archive.org/">Internet Archive - Wayback Machine</a>
-<li><a href="https://internetslang.com/">Internet Slang Dictionary</a>
-<li><a href="https://www.merriam-webster.com/">Merriam-Webster Online</a>
-<li><a href="https://www.nytimes.com/books/best-sellers">NY Times Best Sellers Lists</a>
-<li><a href="https://time.gov/">Official NIST US Time</a>
-<li><a href="https://www.almanac.com/">Old Farmers Almanac</a>
-<li><a href="https://quora.com/">Quora</a>
-<li><a href="https://www.refdesk.com/">RefDesk.com</a>
-<li><a href="https://www.reference.com/">Reference.com</a>
-<li><a href="https://www.urbandictionary.com/">UrbanDictionary.com</a>
-<li><a href="https://www.snopes.com/">Snopes.com</a>
-<li><a href="https://www.timeanddate.com/">timeanddate.com</a>
-<li><a href="https://www.chamberofcommerce.org/usflag/">USFlag.org</a>
-<li><a href="https://en.wikipedia.org/">Wikipedia</a>
-<li><a href="https://www.50states.com/">50states.com</a>
+<li><a href="https://www.house.gov/">House of Representatives</a>
+<li><a href="https://www.loc.gov/">Library of Congress</a>
+<li><a href="https://www.archives.gov/">National Archives</a>
+<li><a href="https://nps.gov/">US National Park Service</a>
+<li><a href="https://www.opm.gov/">Office of Personnel Management</a>
+<li><a href="https://www.sec.gov/">Securities and Exchange Commission</a>
+<li><a href="https://www.senate.gov/">Senate</a>
+<li><a href="https://www.supremecourt.gov/">Supreme Court</a>
+<li><a href="https://www.usmint.gov/">United States Mint</a>
+<li><a href="https://www.usa.gov/">USA.gov Portal</a>
+<li><a href="https://www.whitehouse.gov/">The White House</a>
 </ul>
 
 <A NAME=Graphics>
@@ -249,123 +132,6 @@
 <li><a href="https://www.ziprecruiter.com/">ZipRecruiter</a>
 </ul>
 
-<A NAME=LawEnforcement>
-<H3>Law Enforcement</H3>
-<!-- 8/8/2019 -->
-<ul>
-<li><a href="https://www.interpol.int">INTERPOL</a>
-<li><a href="https://www.policeone.com/">PoliceOne.com</a>
-<li><b>California</b>
-<ul>
-<li><a href="https://www.chp.ca.gov/">California Highway Patrol</a>
-<li><a href="https://cad.chp.ca.gov/">CHP Traffic Incident Information</a>
-</ul>
-<li><b>DC</b>
-<ul>
-<li><a href="https://mpdc.dc.gov/">Metropolitan Police - Washington DC</a>
-</ul>
-<li><b>Delaware</b>
-<ul>
-<li>Delaware State
-<ul>
-<li><a href="https://dsp.delaware.gov/">Delaware State Police</a>
-</ul>
-<li>Sussex County
-<ul>
-<li><a href="https://sussexcountyde.gov/sheriffs-office">Sussex County Sheriff's Office</a>
-<li><a href="https://wiki.radioreference.com/index.php/Sussex_County_(DE)_PD_Stations">Sussex County Police (RadioReference)</a>
-</ul>
-</ul>
-<li><b>Federal Agencies</b>
-<ul>
-<li><a href="https://www.atf.gov/">Bureau of Alcohol Tobacco Firearms and Explosives (ATF)</a>
-<li><a href="https://www.fbi.gov/">Fedreal Bureau of Investigations (FBI)</a>
-<li><a href="https://fletc.gov/">Federal Law Enforcement Training Center (FLETC)</a>
-<li><a href="https://www.uscp.gov/">US Capitol Police</a>
-<li><a href="https://www.gbp.gov/">US Customs and Border Protection (CBP)</a>
-<li><a href="https://www.dea.gov/">US Drug Enforcement Administration (DEA)</a>
-<li><a href="https://www.usmarshals.gov/">US Marshals Service</a>
-<li><a href="https://www.nps.gov/subjects/uspp/index.htm">US Park Police</a>
-<li><a href="https://www.secretservice.gov/">US Secret Service</a>
-</ul>
-<li><b>Maryland</b>
-<ul>
-<li>Anne Arundel County
-<ul>
-<li><a href="https://www.aacounty.org/departments/police-department/">Anne Arundel County Police</a>
-<li><a href="https://wiki.radioreference.com/index.php/Anne_Arundel_County_(MD)_PD">Anne Arundel County Police (RadioReference)</a>
-</ul>
-<li>Baltimore City
-<ul>
-<li><a href="https://www.baltimorepolice.org/">Baltimore City Police</a>
-<li><a href="https://wiki.radioreference.com/index.php/Baltimore_City_(MD)_Police">Baltimore City Police (RadioReference)</a>
-</ul>
-<li>Baltimore County
-<ul>
-<li><a href="https://www.baltimorecountymd.gov/Agencies/police/">Baltimore County Police</a>
-<li><a href="https://wiki.radioreference.com/index.php/Baltimore_County_(MD)">Baltimore County Police (RadioReference)</a>
-<li><a href="https://wiki.radioreference.com/index.php/Baltimore_County_(MD)_10/Signal_Codes">Baltimore County Police 10 Codes (RadioReference)</a>
-<li><a href="https://wiki.radioreference.com/index.php/Baltimore_County_(MD)_Situation_Codes">Baltimore County Police Situation Codes (RadioReference)</a>
-<li><a href="https://wiki.radioreference.com/index.php/Baltimore_County_(MD)_Disposition_Codes">Baltimore County Police Disposition Codes (RadioReference)</a>
-</ul>
-<li>Carroll County
-<ul>
-<li><a href="https://www.broadcastify.com/webPlayer/40365">Broadcastify - Carroll County Sheriff, MSP</a>
-<li><a href="https://sheriff.carrollcountymd.gov/">Carroll County Sheriff</a>
-</ul>
-<li>Frederick County
-<ul>
-<li><a href="https://www.frederickcosheriff.com/">Frederick County Sheriff</a>
-<li><a href="https://wiki.radioreference.com/index.php/Frederick_County_(MD)_Law_Enforcement">Frederick County Police (RadioReference)</a>
-</ul>
-<li>Harford County
-<ul>
-<li><a href="https://harfordsheriff.org/">Harford County Sheriff</a>
-</ul>
-<li>Howard County
-<ul>
-<li><a href="https://www.howardcountymd.gov/Departments/Police2">Howard County Police</a>
-<li><a href="https://wiki.radioreference.com/index.php/Howard_County_(MD)_PD_10_Codes">Howard County Police (RadioReference)</a>
-</ul>
-<li>Maryland State
-<ul>
-<li><a href="https://mdsp.maryland.gov/">MD State Police</a>
-<li><a href="https://henney.com/chm/links/trooper.htm">MD State Police helicopter freqs</a>
-<li><a href="https://wiki.radioreference.com/index.php/Department_of_State_Police_(MD)">MD State Police (RadioReference)</a>
-</ul>
-<li>Montgomery County
-<ul>
-<li><a href="https://www.montgomerycountymd.gov/POL/">Montgomery County Police</a>
-<li><a href="https://wiki.radioreference.com/index.php/Montgomery_County_(MD)_Police">Montgomery County Police (RadioReference)</a>
-</ul>
-<li>Prince Georges County
-<ul>
-<li><a href="https://www.princegeorgescountymd.gov/345/Police">Prince Georges County Police</a>
-<li><a href="https://wiki.radioreference.com/index.php/Prince_George%27s_County_(MD)_Police">Prince Georges County Police (RadioReference)</a>
-</ul>
-<li>Wicomico County
-<ul>
-<li><a href="https://www.wicomicosheriff.com/">Wicomico County Sheriff</a>
-</ul>
-<li>Worcester County
-<ul>
-<li><a href="https://oceancitymd.gov/oc/departments/police/">Ocean City Police</a>
-<li><a href="https://worcestersheriff.com/">Worcester County Sheriff</a>
-</ul>
-</ul>
-<li><b>Oklahoma</b>
-<ul>
-<li><a href="https://kgradb.com/into-the-fire/">Into the Fire Podcast (Jason White/Ronnie Leatherman)</a>
-</ul>
-<li><b>Pennsylvania</b>
-<ul>
-<li><a href="https://www.psp.pa.gov/">PA State Police</a>
-</ul>
-<li><b>Virginia</b>
-<ul>
-<li><a href="https://www.vsp.virginia.gov/">Virginia State Police</a>
-</ul>
-</ul>
 
 <A NAME=Legal>
 <H3>Legal</H3>
@@ -377,31 +143,6 @@
 <li><a href="https://www.courts.state.va.us/">VA Judicial System</a>
 </ul>
 
-<A NAME=NJGovernment>
-<H3>NJGovernment</H3>
-<!-- 01/20/2024 -->
-<ul>
-<li><a href="https://www.njportal.com/DOR/BusinessNameSearch">NJ Business Name Search</a>
-<li><a href="https://www.nj.gov/mvc/">NJ Motor Vehicle Commission (MVC)</a>
-<li><a href="https://www.nj.gov/">NJ state website</a>
-</ul>
-
-<A NAME=NYGovernment>
-<H3>NYGovernment</H3>
-<!-- 01/20/2024 -->
-<ul>
-<li><a href="https://apps.dos.ny.gov/publicInquiry/">NY Business Entity Database</a>
-<li><a href="https://dmv.ny.gov/">NY Department of Motor Vehicles (DMV)</a>
-<li><a href="https://ny.gov/">NY state website</a>
-<li><b>Counties</b>
-<ul>
-<li><a href="https://www.ongov.net/">Onondaga County</a>
-<ul>
-<li><a href="http://www.ongov.net/rpts/propertyTaxInfo.html">Onondaga County Property Tax Info</a>
-</ul>
-</ul>
-</ul>
-
 <A NAME=Pets>
 <H3>Pets</H3>
 <!-- 8/20/2019 -->
@@ -410,8 +151,38 @@
 <li><a href="https://www.petamberalert.com/">Pet Amber Alert</a>
 </ul>
 
-<A NAME=Search>
-<H3>Search Tools</H3>
+<A NAME=Reference-General>
+<H3>Reference-General</H3>
+<!-- 8/8/2019 -->
+<ul>
+<li><a href="https://www.answers.com/">Answers</a>
+<li><a href="https://www.cia.gov/library/publications/resources/the-world-factbook/">CIA World Factbook</a>
+<li><a href="https://www.city-data.com/">CityData</a>
+<li><a href="https://www.dictionary.com/">Dictionary.com</a>
+<li><a href="https://www.ehow.com/">eHow</a>
+<li><a href="https://www.encyclopedia.com/">Encyclopedia.com</a>
+<li><a href="https://www.factmonster.com/">Fact Monster</a>
+<li><a href="https://www.farmersalmanac.com/">Farmers Almanac</a>
+<li><a href="https://www.infoplease.com/">InfoPlease On-line Reference</a>
+<li><a href="https://web.archive.org/">Internet Archive - Wayback Machine</a>
+<li><a href="https://internetslang.com/">Internet Slang Dictionary</a>
+<li><a href="https://www.merriam-webster.com/">Merriam-Webster Online</a>
+<li><a href="https://www.nytimes.com/books/best-sellers">NY Times Best Sellers Lists</a>
+<li><a href="https://time.gov/">Official NIST US Time</a>
+<li><a href="https://www.almanac.com/">Old Farmers Almanac</a>
+<li><a href="https://quora.com/">Quora</a>
+<li><a href="https://www.refdesk.com/">RefDesk.com</a>
+<li><a href="https://www.reference.com/">Reference.com</a>
+<li><a href="https://www.urbandictionary.com/">UrbanDictionary.com</a>
+<li><a href="https://www.snopes.com/">Snopes.com</a>
+<li><a href="https://www.timeanddate.com/">timeanddate.com</a>
+<li><a href="https://www.chamberofcommerce.org/usflag/">USFlag.org</a>
+<li><a href="https://en.wikipedia.org/">Wikipedia</a>
+<li><a href="https://www.50states.com/">50states.com</a>
+</ul>
+
+<A NAME=SearchTools>
+<H3>SearchTools</H3>
 <ul>
 <!-- 05/12/2023 -->
 <li><b>Business</b>
@@ -516,7 +287,7 @@
 <li><a href="https://www.ups.com/us/en/Home.page">UPS</a>
 </ul>
 
-<A NAME=Social>
+<A NAME=SocialMedia>
 <H3>SocialMedia</H3>
 <!-- 8/9/2019 -->
 <ul>
@@ -536,67 +307,6 @@
 <li><a href="https://tweetdeck.twitter.com/">tweetdeck</a>
 <li><a href="https://www.twitter.com/">twitter</a>
 <li><a href="https://www.youtube.com/">Youtube</a>
-</ul>
-
-<A NAME=USGov>
-<H3>USGovernment</H3>
-<!-- 8/13/2019 -->
-<ul>
-<li><a href="https://www.census.gov/">Census Bureau</a>
-<li><a href="https://usda.gov/">Department of Agriculture</a>
-<li><a href="https://www.defense.gov/">Department of Defense</a>
-<li><a href="https://www.ed.gov/">Department of Education</a>
-<li><a href="https://www.dhs.gov/">Department of Homeland Security</a>
-<li><a href="https://www.justice.gov/">Department of Justice</a>
-<li><a href="https://www.dol.gov/">Department of Labor</a>
-<li><a href="https://www.state.gov/">Department of State</a>
-<li><a href="https://home.treasury.gov/">Department of the Treasury</a>
-<ul>
-<li><a href="https://www.treasurydirect.gov/BC/SBCPrice">US Savings Bonds</a>
-</ul>
-<li><a href="https://www.va.gov/">Department of Veterans Affairs</a>
-<li><a href="https://www.fema.gov/">Federal Emergency Management Agency (FEMA)</a>
-<li><a href="https://www.usgs.gov/">Geological Survey</a>
-<li><a href="https://www.gsa.gov/">General Services Administration</a>
-<ul>
-<li><a href="https://www.acquisition.gov/">Federal Acquisition Regulations</a>
-</ul>
-<li><a href="https://www.house.gov/">House of Representatives</a>
-<li><a href="https://www.loc.gov/">Library of Congress</a>
-<li><a href="https://www.archives.gov/">National Archives</a>
-<li><a href="https://nps.gov/">US National Park Service</a>
-<li><a href="https://www.opm.gov/">Office of Personnel Management</a>
-<li><a href="https://www.sec.gov/">Securities and Exchange Commission</a>
-<li><a href="https://www.senate.gov/">Senate</a>
-<li><a href="https://www.supremecourt.gov/">Supreme Court</a>
-<li><a href="https://www.usmint.gov/">United States Mint</a>
-<li><a href="https://www.usa.gov/">USA.gov Portal</a>
-<li><a href="https://www.whitehouse.gov/">The White House</a>
-</ul>
-
-<A NAME=VAGovernment>
-<H3>VAGovernment</H3>
-<!-- 01/20/2024 -->
-<ul>
-<li><a href="https://cis.scc.virginia.gov/EntitySearch/Index">VA business entity search</a>
-<li><a href="https://www.dmv.virginia.gov/">VA Department of Motor Vehicles (DMV)</a>
-<li><a href="https://virginia.gov/">VA state website</a>
-</ul>
-
-<A NAME=Voicemail>
-<H3>Voicemail</H3>
-<!-- 03/24/2024 -->
-<ul>
-<li><a href="https://www.slydial.com/">slydial Ringless Voicemail Messaging</a>
-</ul>
-
-<A NAME=WashDCGovernment>
-<H3>WashDCGovernment</H3>
-<!-- 02/10/2024 -->
-<ul>
-<li><a href="https://dlcp.dc.gov/">Washington DC Department of Licensing and Consumer Protection</a>
-<li><a href="https://dmv.dc.gov/">Washington DC Department of Motor Vehicles (DMV)</a>
-<li><a href="https://dc.gov/">Washington DC website</a>
 </ul>
 
 </body>
