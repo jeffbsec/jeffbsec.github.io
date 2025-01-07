@@ -1,9 +1,57 @@
 <HTML>
 <head>
-<TITLE>Health Bookmarks</TITLE>
+<TITLE>Health Links</TITLE>
 </head>
 
 <body>
+<A NAME=Health>
+<H1>Health Links</H1>
+
+<div id="container"></div>
+
+<script>
+  fetch("disclaimer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("container").innerHTML = data;
+    });
+</script>
+
+<h3>Index</h3>
+B:
+<a href="#BloodDonation">BloodDonation</a>&nbsp;
+<br>
+D:
+<a href="#Diabetes">Diabetes</a>&nbsp;
+<br>
+F:
+<a href="#Fitness">Fitness</a>&nbsp;
+<br>
+H:
+<a href="#Health-General">Health-General</a>&nbsp;
+<a href="#Hospitals">Hospitals</a>&nbsp;
+<br>
+L:
+<a href="#Labs">Labs</a>&nbsp;
+<br>
+P:
+<a href="#Pharmacy">Pharmacy</a>&nbsp;
+<br>
+R:
+<a href="#Running">Running</a>&nbsp;
+<br>
+S:
+<a href="#Spas">Spas</a>&nbsp;
+<br>
+U:
+<a href="#UrgentCare">UrgentCare</a>&nbsp;
+<br>
+V:
+<a href="#Vision">Vision</a>&nbsp;
+<br>
+<br>
+
+<hr>
 
 <A NAME=BloodDonation>
 <H3>BloodDonation</H3>
@@ -39,11 +87,18 @@
 <li><a href="https://www.planetfitness.com/">Planet Fitness</a>
 </ul>
 
-<A NAME=Health>
-<H3>Health</H3>
+<A NAME=Health-General>
+<H3>Health-General</H3>
 <!-- 3/6/2020 -->
 <ul>
+<li><a href="https://www.aafp.org/">American Academy of Family Physicians</a>
+<li><a href="https://www.aaos.org/">American Academy of Orthopaedic Surgeons</a>
 <li><a href="https://www.icrc.org/">Internation Committee of the Red Cross</a>
+<li><a href="https://emedicine.medscape.com/">Medscape Diseases and Conditions</a>
+<li><a href="https://www.rxlist.com/">RxList</a>
+<li><a href="https://www.statnews.com/">STAT</a>
+<li><a href="https://www.upmc.com/services/sports-medicine">UPMC Sports Medicine</a>
+<li><a href="https://www.webmd.com/">WebMD</a>
 <li><a href="https://www.who.int/">World Health Organization</a>
 <li><b>Delaware</b>
 <ul>
@@ -186,19 +241,6 @@
 <li><a href="https://www.advancedradiology.com/">Advanced Radiology</a>
 <li><a href="https://www.labcorp.com/">LabCorp</a>
 <li><a href="https://myquest.questdiagnostics.com/">Quest Diagnostics</a>
-</ul>
-
-<A NAME=Medical>
-<H3>Medical</H3>
-<!-- 8/9/2019 -->
-<ul>
-<li><a href="https://www.aafp.org/">American Academy of Family Physicians</a>
-<li><a href="https://www.aaos.org/">American Academy of Orthopaedic Surgeons</a>
-<li><a href="https://emedicine.medscape.com/">Medscape Diseases and Conditions</a>
-<li><a href="https://www.rxlist.com/">RxList</a>
-<li><a href="https://www.statnews.com/">STAT</a>
-<li><a href="https://www.upmc.com/services/sports-medicine">UPMC Sports Medicine</a>
-<li><a href="https://www.webmd.com/">WebMD</a>
 </ul>
 
 <A NAME=Pharmacy>
