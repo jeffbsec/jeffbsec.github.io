@@ -1,9 +1,40 @@
 <HTML>
 <head>
-<TITLE>Education Bookmarks</TITLE>
+<TITLE>Education Links</TITLE>
 </head>
 
 <body>
+<A NAME=Education>
+<H1>Education Links</H1>
+
+<div id="container"></div>
+
+<script>
+  fetch("disclaimer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("container").innerHTML = data;
+    });
+</script>
+
+<h3>Index</h3>
+C:
+<a href="#CollegePrep">CollegePrep</a>&nbsp;
+<br>
+M:
+<a href="#Math">Math</a>&nbsp;
+<br>
+S:
+<a href="#Schools">Schools</a>&nbsp;
+<a href="#Science">Science</a>&nbsp;
+<br>
+T:
+<a href="#Testing">Testing</a>&nbsp;
+<a href="#Training">Training</a>&nbsp;
+<br>
+<br>
+
+<hr>
 
 <A NAME=CollegePrep>
 <H3>CollegePrep</H3>
@@ -46,14 +77,6 @@
 <li><a href="https://worldwidescience.org/">WorldWideScience</a>
 </ul>
 
-<A NAME=StudentAid>
-<H3>StudentAid</H3>
-<!-- 8/9/2019 -->
-<ul>
-<li><a href="https://studentaid.gov/">Federal Student Aid</a>
-<li><a href="https://finaid.org/">FinAid!</a>
-</ul>
-
 <A NAME=Testing>
 <H3>Testing</H3>
 <!-- 07/07/2023 -->
@@ -61,20 +84,12 @@
 <li><a href="https://home.pearsonvue.com/">Pearson VUE</a>
 </ul>
 
-<A NAME=Textbooks>
-<H3>Textbooks</H3>
-<!-- 8/9/2019 -->
-<ul>
-<li><a href="https://www.classzone.com/">ClassZone - Textbooks on-line</a>
-<li><a href="https://www.discoveryeducation.com/">Discovery Education</a>
-<li><a href="https://www.scholastic.com/">Scholastic</a>
-</ul>
-
 <A NAME=Training>
 <H3>Training</H3>
 <!-- 07/07/2023 -->
 <ul>
 <li><a href="https://www.theceshop.com/">The CE Shop</a>
+<li><a href="https://www.discoveryeducation.com/">Discovery Education</a>
 </ul>
 
 </body>
